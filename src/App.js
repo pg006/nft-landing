@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import AllRoutes from "./Routes/AllRoutes";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (
