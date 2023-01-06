@@ -1,0 +1,43 @@
+.review{
+    padding-top: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    h3{
+      color: #a3d9d9;
+      font-weight: 600;
+
+ 
+    }
+ h1{
+    width: 50%;
+    margin-bottom: 10%;
+ }
+ img{
+    display: flex;
+    position: absolute;
+    border-radius: 65px !important;
+  mix-blend-mode: luminosity;
+  top: -80px;
+ }
+ .box{
+    background-color: #13124F ;
+    height: 20%;
+    display: flex;
+    position: relative;
+
+
+    h2{
+    background-color: #13124F ;
+
+    }
+    h4{
+    background-color: #13124F ;
+
+    }
+
+}
+}

@@ -1,0 +1,30 @@
+.mainheader {
+  .content {
+    margin-top: 60px;
+    color: #ffffff;
+    padding: 0 70px 0 0;
+    h1 {
+      font-size: 75px;
+      padding-right: 50px;
+    }
+    h5 {
+      padding: 0 20px;
+      font-weight: 400;
+      line-height: 25px;
+    }
+    .buy-button {
+      height: 55px;
+      width: 180px;
+      background-color: #8c8cda;
+      border-radius: 40px;
+      color: #ffffff;
+      font-size: 20px;
+    }
+    .sell-button {
+      color: #ffffff;
+      padding: 13px 55px;
+      border: 1px solid #95d1d1;
+      border-radius: 40px;
+    }
+  }
+}
