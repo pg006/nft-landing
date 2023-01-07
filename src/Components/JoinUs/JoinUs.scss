@@ -1,0 +1,30 @@
+.joinus {
+  margin: 7% 30px;
+  background-color: #a3d9d9;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  h3 {
+    background-color: #a3d9d9;
+    padding: 30px;
+  }
+  .part {
+    background-color: #a3d9d9;
+    width: 40%;
+    h1 {
+      background-color: #a3d9d9;
+      font-size: 60px;
+      line-height: 90px;
+    }
+  }
+  Button {
+    background-color: #000000;
+    margin: 40px 0;
+    color: #ffffff;
+    padding: 15px 60px;
+    border-radius: 40px;
+    font-size: 20px;
+  }
+}

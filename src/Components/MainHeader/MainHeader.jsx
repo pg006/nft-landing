@@ -25,7 +25,7 @@ const MainHeader = () => {
                 </Col>
               </Row>
             </Col>
-            <Col lg={6} md={4} sm={3}>
+            <Col lg={7} md={4} sm={3}>
               <div className='d-flex justify-content-around'>
                 <img src={Pc} alt="Pc" />
               </div>
