@@ -1,11 +1,19 @@
 .navbar {
+  background-color: transparent !important;
   padding-top: 40px !important;
   display: flex !important;
   justify-content: space-between !important;
+
   .navbar-brand {
     color: #ffffff !important;
+    background-color: transparent !important;
   }
+
   .nav-link {
     color: #ffffff !important;
+    background: transparent !important;
   }
+}
+.navbar-expand .navbar-nav {
+  background: transparent !important;
 }

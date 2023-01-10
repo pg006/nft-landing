@@ -10,6 +10,31 @@
       }
     }
   }
+  .email-row {
+    padding-top: 20px;
+    input {
+      background: #13124f;
+      border-radius: 70px !important;
+      border-color: #13124f;
+      padding: 14px 153px 14px 20px;
+      color: #ffffff;
+    }
+    ::placeholder{
+      color: #ffffff;
+    }
+    button {
+      background: #8c8cda;
+      border-radius: 83px !important;
+      padding: 14px 53px;
+      position: absolute;
+      right: 0;
+      z-index: 99;
+    }
+    .input-group{
+      margin: 0;
+      padding: 0;
+    }
+  }
   .name {
     margin: 30px 0;
   }

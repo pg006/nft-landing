@@ -6,7 +6,7 @@ import '../Navbar/Navbar.scss'
 const NavBar = () => {
   return (
     <React.Fragment>
-      <Navbar bg="#01052f" variant="#01052f" className='navbar'>
+      <Navbar className='navbar'>
         <Navbar.Brand href="#home">KRYPTO</Navbar.Brand>
         <Nav className="nav-item">
           <Nav.Link href="#about">about</Nav.Link>

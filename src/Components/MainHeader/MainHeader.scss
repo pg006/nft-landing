@@ -45,22 +45,22 @@
         color: #ffffff;
         font-size: 20px;
       }
-      .s-button {
+
+      .sell-button {
+        color: #ffffff;
+        padding: 13px 55px;
+        border: 1px solid #95d1d1;
+        border-radius: 40px;
+        margin-left: 13px;
+        @media (max-width: 1000px) {
+          width: 185px;
+        }
         @media (max-width: 1000px) {
           margin: 5px 0 0 5px;
           width: 185px;
         }
         @media (max-width: 580px) {
           margin: 5px 0 0 1px;
-        }
-        .sell-button {
-          color: #ffffff;
-          padding: 13px 55px;
-          border: 1px solid #95d1d1;
-          border-radius: 40px;
-          @media (max-width: 1000px) {
-            width: 185px;
-          }
         }
       }
     }
