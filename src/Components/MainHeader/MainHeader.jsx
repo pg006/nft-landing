@@ -11,22 +11,22 @@ const MainHeader = () => {
       <div className='mainheader'>
         <Row>
           <div className='d-flex justify-content-between'>
-            <Col className='content' lg={5} md={4} sm={3}>
+            <Col className='content' lg={6} md={6} sm={12}>
               <Row>
                 <h1>Discover And Collect Rare NFTs</h1>
                 <h5>The most secure marketplace for buying and selling unique crypto assets.</h5>
               </Row>
               <Row>
-                <Col lg={6} md={4} sm={3}>
+                <Col className='b-button' lg={6} md={6} sm={12}>
                   <Button className='buy-button' variant="#8c8cda">BUY NFTS</Button>
                 </Col>
-                <Col lg={6} md={6} sm={6}>
+                <Col className='s-button' lg={6} md={6} sm={12}>
                   <Button className='sell-button' variant="#8c8cda">SELL NFTS</Button>
                 </Col>
               </Row>
             </Col>
-            <Col lg={7} md={4} sm={3}>
-              <div className='d-flex justify-content-around'>
+            <Col className='pc-img' lg={6} md={6} sm={4}>
+              <div className='d-flex justify-content-center'>
                 <img src={Pc} alt="Pc" />
               </div>
             </Col>
@@ -36,6 +36,5 @@ const MainHeader = () => {
     </React.Fragment>
   )
 }
-
 export default MainHeader
 

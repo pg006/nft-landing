@@ -10,12 +10,12 @@ const Anaylze = () => {
     <React.Fragment>
       <div className='anaylze'>
         <Row>
-          <Col lg={6} md={6} sm={6}>
-            <div className='d-flex justify-content-between'>
-              <img src={Blog_1} alt='Blog_1' />
+          <Col lg={6} md={6} sm={12}>
+            <div className='img-blog-1'>
+              <img className='img-1' src={Blog_1} alt='Blog_1' />
             </div>
           </Col>
-          <Col lg={6} md={6} sm={6}>
+          <Col lg={6} md={6} sm={12}>
             <div className='d-flex justify-content-between'>
               <Row className='content-item'>
                 <h3>ANALYTICS</h3>
@@ -27,7 +27,7 @@ const Anaylze = () => {
           </Col>
         </Row>
         <Row>
-          <Col lg={6} md={6} sm={6}>
+          <Col lg={6} md={6} sm={12}>
             <div className='d-flex justify-content-between'>
               <Row className='content-item'>
                 <h3>ANALYTICS</h3>
@@ -37,8 +37,8 @@ const Anaylze = () => {
               </Row>
             </div>
           </Col>
-          <Col lg={6} md={6} sm={6}>
-            <img src={Blog_2} alt="Blog_2" />
+          <Col lg={6} md={6} sm={12}>
+            <img className='img-2' src={Blog_2} alt="Blog_2" />
           </Col>
         </Row>
       </div>

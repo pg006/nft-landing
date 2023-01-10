@@ -6,12 +6,12 @@ const Footer = () => {
     <React.Fragment>
       <div className='footer'>
         <Row>
-          <Col lg={2}>
+          <Col lg={2} md={6} sm={12}>
             <h3>KRYPTO</h3>
           </Col>
-          <Col lg={6}>
-            <Row>
-              <Col lg={4}>
+          <Col className='name-row' lg={6} md={6} sm={12}>
+            <Row >
+              <Col lg={4} md={4} sm={12}>
                 <h5>krypto</h5>
                 <div className='name'>
                   <h6>Home</h6>
@@ -20,7 +20,7 @@ const Footer = () => {
                   <h6>Sell NFTs</h6>
                 </div>
               </Col>
-              <Col lg={4}>
+              <Col lg={4} md={4} sm={12}>
                 <h5>Market</h5>
                 <div className='name'>
                   <h6>Browse NFTs</h6>
@@ -28,7 +28,7 @@ const Footer = () => {
                   <h6>Sell NFTs</h6>
                 </div>
               </Col>
-              <Col lg={4}>
+              <Col lg={4} md={4} sm={12}>
                 <h5>contact</h5>
                 <div className='name'>
                   <h6>Email</h6>
@@ -39,9 +39,9 @@ const Footer = () => {
               </Col>
             </Row>
           </Col>
-          <Col lg={4}>
+          <Col lg={4} md={4} sm={12}>
             <Row>join our newsletter</Row>
-            <Row>
+            <Row className='email-row'>
               <Button className='d-flex justify-content-start button-1' variant="#000000"> Email Address
                 <Button className='button-2'>SUBMIT</Button>
               </Button>

@@ -15,31 +15,40 @@ const Review = () => {
                     </div>
                 </Row>
                 <Row>
-                    <Col lg={4} md={4} sm={4}>
+                    <Col lg={4} md={4} sm={12}>
                         <div className='boxs'>
                             <div className='box'>
+                            <div className='img-span'>
 
                                 <img src={Jessica} alt="Jessica" />
                                 <span></span>
+                            </div>
+
                                 <h2>Jessica Page</h2>
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </h4>
                             </div>
                         </div>
                     </Col>
-                    <Col lg={4} md={4} sm={4}>
+                    <Col lg={4} md={4} sm={12}>
                         <div className='boxs'>
                             <div className='box'>
+                           <div className='img-span'>
                                 <img src={Jessica} alt="Jessica" />
                                 <span></span>
+                                </div>
                                 <h2>Jessica Page</h2>
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </h4>
                             </div>
                         </div></Col>
-                    <Col lg={4} md={4} sm={4}>
+                    <Col lg={4} md={4} sm={12}>
                         <div className='boxs'>
                             <div className='box'>
+                           <div className='img-span'>
+
                                 <img src={Jessica} alt="Jessica" />
                                 <span></span>
+                            </div>
+
                                 <h2>Jessica Page</h2>
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </h4>
                             </div>

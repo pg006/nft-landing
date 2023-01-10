@@ -3,28 +3,75 @@
     margin-top: 60px;
     color: #ffffff;
     padding: 0 70px 0 0;
+    @media (max-width: 1200px) {
+      padding: 0;
+    }
     h1 {
-      font-size: 75px;
+      font-size: 90px;
       padding-right: 50px;
+      @media (max-width: 1000px) {
+        font-size: 55px;
+      }
+      @media (max-width: 780px) {
+        font-size: 39px;
+      }
+      @media (max-width: 580px) {
+        font-size: 40px;
+        padding-right: 0;
+      }
     }
     h5 {
-      padding: 0 20px;
+      width: 65%;
       font-weight: 400;
       line-height: 25px;
+      @media (max-width: 780px) {
+        font-size: 15px;
+        width: 80%;
+      }
+      @media (max-width: 580px) {
+        width: 100%;
+        font-size: 20px;
+      }
     }
-    .buy-button {
-      height: 55px;
-      width: 180px;
-      background-color: #8c8cda;
-      border-radius: 40px;
-      color: #ffffff;
-      font-size: 20px;
+    .row {
+      @media (max-width: 580px) {
+        margin: 0 !important;
+      }
+      .buy-button {
+        height: 55px;
+        width: 185px;
+        background-color: #8c8cda;
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 20px;
+      }
+      .s-button {
+        @media (max-width: 1000px) {
+          margin: 5px 0 0 5px;
+          width: 185px;
+        }
+        @media (max-width: 580px) {
+          margin: 5px 0 0 1px;
+        }
+        .sell-button {
+          color: #ffffff;
+          padding: 13px 55px;
+          border: 1px solid #95d1d1;
+          border-radius: 40px;
+          @media (max-width: 1000px) {
+            width: 185px;
+          }
+        }
+      }
     }
-    .sell-button {
-      color: #ffffff;
-      padding: 13px 55px;
-      border: 1px solid #95d1d1;
-      border-radius: 40px;
+  }
+  img {
+    @media (max-width: 780px) {
+      height: 300px;
+      margin-left: 80px;
+    }
+    @media (max-width: 580px) {
+      display: contents;
     }
   }
 }

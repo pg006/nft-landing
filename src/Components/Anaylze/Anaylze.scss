@@ -1,6 +1,20 @@
 .anaylze {
   margin: 70px 0;
   color: #ffffff;
+  .img-1 {
+    @media (max-width: 1000px) {
+      padding-top: 50px;
+      height: 400px;
+    }
+    @media (max-width: 770px) {
+      // padding-top: 50px;
+      height: 300px;
+    }
+    @media (max-width: 575px) {
+      padding-top: unset;
+      height: 335px;
+    }
+  }
   .content-item {
     padding-top: 60px;
     h3 {
@@ -9,19 +23,55 @@
     h1 {
       width: 76%;
       font-size: 57px;
+      @media (max-width: 1100px) {
+        width: unset;
+        font-size: 52px;
+        line-height: 60px;
+      }
+      @media (max-width: 860px) {
+        font-size: 39px;
+      }
+      @media (max-width: 761px) {
+        font-size: 28px;
+      }
     }
     h5 {
       font-weight: 500;
+      font-size: 20px;
       width: 63%;
       margin: 20px 0;
       line-height: 30px;
+      @media (max-width: 1100px) {
+        width: unset;
+        font-size: 22px;
+      }
+      @media (max-width: 860px) {
+        font-size: 17px;
+      }
     }
     .pricing {
-      width: 40%;
+      width: 50%;
       background-color: #8c8cda;
       border-radius: 40px;
       color: #ffffff;
-      font-size: 18px;
+      font-size: 19px;
+      padding: 10px;
+      @media (max-width: 860px) {
+        width: 67%;
+      }
+      @media (max-width: 761px) {
+        width: 80%;
+      }
+    }
+  }
+  .img-2 {
+    @media (max-width: 770px) {
+      // padding-top: 50px;
+      height: 300px;
+    }
+    @media (max-width: 575px) {
+      padding-top: unset;
+      height: 335px;
     }
   }
 }
